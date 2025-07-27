@@ -290,3 +290,11 @@ footer {
     backdrop-filter: blur(10px);
     transform: rotateY(180deg);
 }
+.project-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    cursor: pointer;
+    display: block; /* important: makes the <a> behave like a block card */
+}
+
